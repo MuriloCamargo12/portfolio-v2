@@ -92,7 +92,7 @@ export function TopBar({ onOpenAbout }: { onOpenAbout: () => void }) {
       data-topbar
       className="relative z-50 flex h-8 items-center border-b border-[var(--os-bar-hover)] bg-[var(--os-bar)] px-1 text-[13px] text-[var(--os-bar-text)]"
     >
-      <p className="px-3 font-medium tracking-wide">MuriloOS</p>
+      <p className="px-3 font-medium tracking-wide">🖥️ MuriloOS</p>
       <div data-menu="calendar" className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
         <button
           type="button"
