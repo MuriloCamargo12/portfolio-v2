@@ -26,7 +26,7 @@ npm start
 - **Terminal:** `help` lista os comandos (`whoami`, `ls`, `cat`, `neofetch`, `projetos`, `abrir`, `contato`, `clear`).
 - **Barra superior:** relógio, calendário, tema claro/escuro e volume do som de clique.
 
-Atalhos: `Ctrl+Alt+T` abre o terminal e `Alt+Tab` troca a janela ativa.
+Atalhos: `Ctrl+Alt+T` abre o terminal.
 
 Abaixo de 1024 px a interface vira a do celular: grade de ícones e janela em tela cheia, com botão de voltar. A partir de 1024 px voltam o dock e as janelas flutuantes.
 
