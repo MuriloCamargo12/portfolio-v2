@@ -14,6 +14,21 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    slug: "helpdesk",
+    name: "HelpDesk",
+    summary:
+      "Helpdesk com cliente, atendente e um agente de IA que responde com a base de artigos.",
+    about:
+      "O cliente abre um chamado e acompanha a conversa. O atendente trabalha numa mesa com fila, base de artigos e um rascunho sugerido pela IA. Se a IA não souber responder com os artigos publicados, o chamado cai na fila.",
+    built:
+      "O site é Next.js e a API é NestJS, com Prisma e MySQL. O login usa JWT de 7 dias e o cadastro público cria só cliente. A IA lê a base publicada, grava a resposta no chamado ou manda para a fila. Cada chamado tem status (novo, na fila, em atendimento, aguardando cliente, resolvido) controlado no backend.",
+    stack: ["Next.js", "TypeScript", "NestJS", "Prisma", "MySQL", "OpenAI"],
+    demo: "https://help-desk-flame-theta.vercel.app/",
+    repo: "https://github.com/MuriloCamargo12/HelpDesk",
+    image: "/projetos/helpdesk.png",
+    featured: true,
+  },
+  {
     slug: "eventhub",
     name: "EventHub",
     summary:
@@ -23,8 +38,9 @@ export const projects: Project[] = [
     built:
       "O site é Next.js e a API é NestJS, com Prisma e MySQL. A sessão fica num cookie HttpOnly, e o token fica numa tabela de sessões. Cada pessoa tem uma reserva por evento. Cancelar não apaga a linha: o status vira cancelled e a vaga volta.",
     stack: ["Next.js", "TypeScript", "NestJS", "Prisma", "MySQL"],
-    demo: null,
+    demo: "https://event-hub-seven-beta.vercel.app/",
     repo: "https://github.com/MuriloCamargo12/EventHub",
+    image: "/projetos/eventhub.png",
     featured: true,
   },
   {

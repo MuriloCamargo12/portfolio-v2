@@ -1,7 +1,7 @@
 export const resume = {
   availability: "Tatuí, SP · Disponível para trabalho remoto",
   summary:
-    "Desenvolvedor full stack júnior em formação pela Formação DEV da Cod3r, com 11 projetos pessoais publicados no GitHub. Desenvolvo aplicações web de ponta a ponta com React, Next.js e TypeScript no front-end e Node.js, Express, NestJS e MySQL no back-end, incluindo APIs REST, autenticação com JWT, modelagem de dados com Prisma ORM e deploy na Vercel e na Railway. Busco a primeira oportunidade como desenvolvedor júnior, em regime remoto.",
+    "Desenvolvedor full stack júnior em formação pela Formação DEV da Cod3r, com 12 projetos pessoais publicados no GitHub. Desenvolvo aplicações web de ponta a ponta com React, Next.js e TypeScript no front-end e Node.js, Express, NestJS e MySQL no back-end, incluindo APIs REST, autenticação com JWT, modelagem de dados com Prisma ORM, integração com OpenAI e deploy na Vercel e na Railway. Busco a primeira oportunidade como desenvolvedor júnior, em regime remoto.",
   skills: [
     {
       label: "Front-end",
@@ -20,6 +20,15 @@ export const resume = {
     },
   ],
   projects: [
+    {
+      slug: "helpdesk",
+      title: "HelpDesk | Helpdesk com agente de IA",
+      stack: "Next.js, TypeScript, NestJS, Prisma ORM, MySQL, OpenAI",
+      bullets: [
+        "O cliente abre um chamado e acompanha a conversa; o atendente trabalha numa mesa com fila, base de artigos e rascunho sugerido pela IA.",
+        "A API em NestJS controla o status do chamado, os papéis de cliente e atendente e a autenticação com JWT. A IA responde com a base publicada ou envia o chamado para a fila.",
+      ],
+    },
     {
       slug: "eventhub",
       title: "EventHub | Plataforma de Eventos Full Stack",
